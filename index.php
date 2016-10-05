@@ -1,5 +1,5 @@
 <?php
-
+ 
 function random_char($string) {
   $i = mt_rand(0, strlen($string)-1);
   return $string[$i];
